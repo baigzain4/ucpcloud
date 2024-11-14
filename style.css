@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  padding: 5px 10px;
+  background-color: #f8f8f8; /* Optional background for header */
+}
+
+nav {
+  display: flex; /* Make the nav container a flex container */
+  align-items: center; /* Center the logo and links vertically */
+  justify-content: space-between; /* Push the logo to one side, links to the other */
+}
+
+.u-logo {
+  height: 80px;
+  width: 90px;
+  mix-blend-mode: multiply;
+  display: inline-block; /* Ensures proper alignment within flex */
+}
+
+.nav-links {
+  display: inline; /* Inline block to stay within flex layout */
+}
+
+.item-links {
+  list-style: none;
+  display: flex; /* Horizontally align links */
+  gap: 20px; /* Adds spacing between links */
+}
+
+.final-links {
+  text-decoration: none;
+  color: #333; /* Default link color */
+  font-weight: bold;
+}
